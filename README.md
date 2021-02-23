@@ -1,2 +1,2 @@
 # COBOL-Programming-
-[ ] My first cobol program 
+- [ ] My first cobol program 
