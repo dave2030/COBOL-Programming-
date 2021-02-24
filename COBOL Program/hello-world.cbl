@@ -1,19 +1,12 @@
-      *****************************************************************
-      * Program name:    MYPROG                               
-      * Original author: Shyam                                
-      *
-      * Maintenence Log                                              
-      * Date      Author        Maintenance Requirement               
-      * --------- ------------  --------------------------------------- 
-      * 01/01/08 Shyam  Created for COBOL class         
-      *                                                               
-      *****************************************************************
-       IDENTIFICATION DIVISION.
-       PROGRAM-ID.  MYPROG.
-       AUTHOR. Shyam. 
-       INSTALLATION. COBOL DEVELOPMENT CENTER. 
-       DATE-WRITTEN. 01/01/08. 
-       DATE-COMPILED. 01/01/08. 
-       SECURITY. NON-CONFIDENTIAL.
-      *****************************************************************
-      display "Hello World"
+000010 IDENTIFICATION DIVISION.
+000020 PROGRAM-ID. HELLO-WORLD-PROG.
+000030 AUTHOR. Shyam 
+000040*The standard Hello world program
+000050 000060 ENVIRONMENT DIVISION.
+000070 000080 DATA DIVISION
+. 000090 WORKING-STORAGE SECTION.
+000100 01 TEXT-OUT PIC X(12) VALUE 'Hello World!'.
+000110 000120 PROCEDURE DIVISION.
+000130 MAIN-PARAGRAPH.
+000140 DISPLAY TEXT-OUT
+000150 STOP RUN.
